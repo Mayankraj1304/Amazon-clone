@@ -1,0 +1,112 @@
+
+*
+{
+    margin: 0px;
+    border: border-box;
+}
+#navbar
+{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav:hover{
+    border: 1px solid white; 
+    
+
+}
+#add1
+{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 11px;
+}
+#add2
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+#all
+{
+    background-color: #E6E6E6;
+    color: #313a3b;
+    width: 50px;
+    height: 40px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+#all:hover
+{
+    background-color:darkgrey;
+    color: black
+}
+#search
+{
+    border: 0;
+    background-color: #ffffff;
+    color: #0f1111;
+    height: 38px;
+    width:600px;
+    padding-left: 5px;
+    
+}
+.srch{
+    display: flex;
+    color: #0f1111;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.mg{
+    background-color: #febd68;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.acc1{
+    font-size: 12px;
+}
+.acc2{
+    font-size: 14px;
+    font-weight: bolder;
+}
+#order
+{
+    position:relative;
+    top: 2px; left: 6px;
+    font-weight: bolder;
+}
+.navbar2
+{
+    height: 35px;
+    background-color: #222f3d;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.nav2{
+    margin: 8px;
+}
+.nav2:hover{
+    border: 1px solid white; 
+}
+#last{
+    position: absolute;
+    right: 0px;
+
+}
+.cont
+{
+    height: 600px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+}
